@@ -1,4 +1,4 @@
-package main
+package structures
 
 import "fmt"
 
@@ -19,7 +19,7 @@ func (u* Member) ChangeStatus() { // with pointer
 
 
 
-func main() {
+func Init() {
 	var member1 Member
 	member1.username = "mdiaz"
 	member1.email = "mdiaz@is4tech.com"
