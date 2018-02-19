@@ -8,7 +8,8 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/slices"
 	//"github.com/marvindaviddiaz/golang-examples/slices"
 	//"github.com/marvindaviddiaz/golang-examples/linkedlist"
-	"github.com/marvindaviddiaz/golang-examples/routines"
+	//"github.com/marvindaviddiaz/golang-examples/routines"
+	"github.com/marvindaviddiaz/golang-examples/channels"
 )
 func main()  {
 	//structures.Init()
@@ -16,5 +17,6 @@ func main()  {
 	//set.Run()
 	//slices.Init()
 	//linkedlist.Run()
-	routines.Main()
+	//routines.Main()
+	channels.Main()
 }
