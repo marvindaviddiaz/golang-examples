@@ -16,13 +16,14 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/hydra/appliances"
 	//"github.com/marvindaviddiaz/golang-examples/hydra"
 	//"github.com/marvindaviddiaz/golang-examples/hydra"
-	"github.com/marvindaviddiaz/golang-examples/hydra/shieldBuilder"
+	//"github.com/marvindaviddiaz/golang-examples/hydra/shieldBuilder"
+	"github.com/marvindaviddiaz/golang-examples/syncAndLock"
 )
 func main()  {
 
 	//hydra.Main()
 	//appliances.Main()
-	shieldBuilder.Main()
+	//shieldBuilder.Main()
 
 
 	//structures.Init()
@@ -36,4 +37,7 @@ func main()  {
 	//errors.Main()
 	//interfaces.Main()
 	//embedding.Main()
+	//syncAndLock.Main()
+	//syncAndLock.Start()
+	syncAndLock.Run()
 }
