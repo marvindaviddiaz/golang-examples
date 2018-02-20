@@ -9,9 +9,14 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/routines"
 	//"github.com/marvindaviddiaz/golang-examples/channels"
 	//"github.com/marvindaviddiaz/golang-examples/select"
-	"github.com/marvindaviddiaz/golang-examples/errors"
+	//"github.com/marvindaviddiaz/golang-examples/errors"
+	//"github.com/marvindaviddiaz/golang-examples/hydra"
+	"github.com/marvindaviddiaz/golang-examples/interfaces"
 )
 func main()  {
+
+	//hydra.Main()
+
 	//structures.Init()
 	//theysaidso.PrintQuoteOfTheDay()
 	//set.Run()
@@ -20,5 +25,7 @@ func main()  {
 	//routines.Main()
 	//channels.Main()
 	//selects.Main()
-	errors.Main()
+	//errors.Main()
+
+	interfaces.Main()
 }
