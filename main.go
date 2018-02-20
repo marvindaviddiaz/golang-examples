@@ -17,7 +17,8 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/hydra"
 	//"github.com/marvindaviddiaz/golang-examples/hydra"
 	//"github.com/marvindaviddiaz/golang-examples/hydra/shieldBuilder"
-	"github.com/marvindaviddiaz/golang-examples/syncAndLock"
+	//"github.com/marvindaviddiaz/golang-examples/syncAndLock"
+	"github.com/marvindaviddiaz/golang-examples/timerAndTicker"
 )
 func main()  {
 
@@ -39,5 +40,6 @@ func main()  {
 	//embedding.Main()
 	//syncAndLock.Main()
 	//syncAndLock.Start()
-	syncAndLock.Run()
+	//syncAndLock.Run()
+	timerAndTicker.Main()
 }
