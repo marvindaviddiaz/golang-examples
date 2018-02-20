@@ -12,11 +12,14 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/errors"
 	//"github.com/marvindaviddiaz/golang-examples/hydra"
 	//"github.com/marvindaviddiaz/golang-examples/interfaces"
-	"github.com/marvindaviddiaz/golang-examples/embedding"
+	//"github.com/marvindaviddiaz/golang-examples/embedding"
+	"github.com/marvindaviddiaz/golang-examples/hydra/appliances"
 )
 func main()  {
 
 	//hydra.Main()
+	appliances.Main()
+
 
 	//structures.Init()
 	//theysaidso.PrintQuoteOfTheDay()
@@ -28,5 +31,5 @@ func main()  {
 	//selects.Main()
 	//errors.Main()
 	//interfaces.Main()
-	embedding.Main()
+	//embedding.Main()
 }
