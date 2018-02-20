@@ -13,12 +13,14 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/hydra"
 	//"github.com/marvindaviddiaz/golang-examples/interfaces"
 	//"github.com/marvindaviddiaz/golang-examples/embedding"
-	"github.com/marvindaviddiaz/golang-examples/hydra/appliances"
+	//"github.com/marvindaviddiaz/golang-examples/hydra/appliances"
+	//"github.com/marvindaviddiaz/golang-examples/hydra"
+	"github.com/marvindaviddiaz/golang-examples/hydra"
 )
 func main()  {
 
-	//hydra.Main()
-	appliances.Main()
+	hydra.Main()
+	//appliances.Main()
 
 
 	//structures.Init()
