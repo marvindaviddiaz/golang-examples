@@ -11,7 +11,8 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/select"
 	//"github.com/marvindaviddiaz/golang-examples/errors"
 	//"github.com/marvindaviddiaz/golang-examples/hydra"
-	"github.com/marvindaviddiaz/golang-examples/interfaces"
+	//"github.com/marvindaviddiaz/golang-examples/interfaces"
+	"github.com/marvindaviddiaz/golang-examples/embedding"
 )
 func main()  {
 
@@ -26,6 +27,6 @@ func main()  {
 	//channels.Main()
 	//selects.Main()
 	//errors.Main()
-
-	interfaces.Main()
+	//interfaces.Main()
+	embedding.Main()
 }
