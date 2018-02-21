@@ -18,9 +18,10 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/hydra"
 	//"github.com/marvindaviddiaz/golang-examples/hydra/shieldBuilder"
 	//"github.com/marvindaviddiaz/golang-examples/syncAndLock"
-	"github.com/marvindaviddiaz/golang-examples/timerAndTicker"
+	//"github.com/marvindaviddiaz/golang-examples/timerAndTicker"
 	//"github.com/marvindaviddiaz/golang-examples/hydra/hydrachat/hchatservertest"
-	"github.com/marvindaviddiaz/golang-examples/hydra/hydrachat/hchatclient"
+	//"github.com/marvindaviddiaz/golang-examples/hydra/hydrachat/hchatclient"
+	"github.com/marvindaviddiaz/golang-examples/reflection"
 )
 func main()  {
 
@@ -46,5 +47,6 @@ func main()  {
 	//syncAndLock.Main()
 	//syncAndLock.Start()
 	//syncAndLock.Run()
-	timerAndTicker.Main()
+	//timerAndTicker.Main()
+	reflection.Main()
 }
