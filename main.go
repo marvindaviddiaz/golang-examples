@@ -19,12 +19,17 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/hydra/shieldBuilder"
 	//"github.com/marvindaviddiaz/golang-examples/syncAndLock"
 	"github.com/marvindaviddiaz/golang-examples/timerAndTicker"
+	//"github.com/marvindaviddiaz/golang-examples/hydra/hydrachat/hchatservertest"
+	"github.com/marvindaviddiaz/golang-examples/hydra/hydrachat/hchatclient"
 )
 func main()  {
 
 	//hydra.Main()
 	//appliances.Main()
 	//shieldBuilder.Main()
+
+	//hchatservertest.Main() // start the chat server
+	//hchatclient.Main()// start a client
 
 
 	//structures.Init()
