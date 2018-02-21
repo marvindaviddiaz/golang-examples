@@ -48,5 +48,7 @@ func main()  {
 	//syncAndLock.Start()
 	//syncAndLock.Run()
 	//timerAndTicker.Main()
-	reflection.Main()
+	//reflection.Main()
+	//reflection.ReflectionOnStruct()
+	reflection.ReflectionOnInterfaces()
 }
