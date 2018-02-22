@@ -46,6 +46,6 @@ func Main() {
 	f, err = os.Open("/tmp/test.json")
 	defer f.Close()
 	json.NewDecoder(f).Decode(member)
-	fmt.Println("Json deconded from", f.Name())
+	fmt.Println("Json decoded from", f.Name())
 	fmt.Println(*member)
 }
