@@ -22,7 +22,8 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/hydra/hydrachat/hchatservertest"
 	//"github.com/marvindaviddiaz/golang-examples/hydra/hydrachat/hchatclient"
 	//"github.com/marvindaviddiaz/golang-examples/reflection"
-	"github.com/marvindaviddiaz/golang-examples/files"
+	//"github.com/marvindaviddiaz/golang-examples/files"
+	"github.com/marvindaviddiaz/golang-examples/json"
 )
 func main()  {
 
@@ -52,5 +53,6 @@ func main()  {
 	//reflection.Main()
 	//reflection.ReflectionOnStruct()
 	//reflection.ReflectionOnInterfaces()
-	files.Main()
+	//files.Main()
+	json.Main()
 }
