@@ -21,7 +21,8 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/timerAndTicker"
 	//"github.com/marvindaviddiaz/golang-examples/hydra/hydrachat/hchatservertest"
 	//"github.com/marvindaviddiaz/golang-examples/hydra/hydrachat/hchatclient"
-	"github.com/marvindaviddiaz/golang-examples/reflection"
+	//"github.com/marvindaviddiaz/golang-examples/reflection"
+	"github.com/marvindaviddiaz/golang-examples/files"
 )
 func main()  {
 
@@ -50,5 +51,6 @@ func main()  {
 	//timerAndTicker.Main()
 	//reflection.Main()
 	//reflection.ReflectionOnStruct()
-	reflection.ReflectionOnInterfaces()
+	//reflection.ReflectionOnInterfaces()
+	files.Main()
 }
