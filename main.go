@@ -24,7 +24,8 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/reflection"
 	//"github.com/marvindaviddiaz/golang-examples/files"
 	//"github.com/marvindaviddiaz/golang-examples/json"
-	"github.com/marvindaviddiaz/golang-examples/xml"
+	//"github.com/marvindaviddiaz/golang-examples/xml"
+	"github.com/marvindaviddiaz/golang-examples/csv"
 )
 func main()  {
 
@@ -56,5 +57,6 @@ func main()  {
 	//reflection.ReflectionOnInterfaces()
 	//files.Main()
 	//json.Main()
-	xml.Main()
+	//xml.Main()
+	csv.Main()
 }
