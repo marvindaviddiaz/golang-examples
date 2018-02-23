@@ -25,7 +25,8 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/files"
 	//"github.com/marvindaviddiaz/golang-examples/json"
 	//"github.com/marvindaviddiaz/golang-examples/xml"
-	"github.com/marvindaviddiaz/golang-examples/csv"
+	//"github.com/marvindaviddiaz/golang-examples/csv"
+	"github.com/marvindaviddiaz/golang-examples/dbMysql"
 )
 func main()  {
 
@@ -58,5 +59,6 @@ func main()  {
 	//files.Main()
 	//json.Main()
 	//xml.Main()
-	csv.Main()
+	//csv.Main()
+	dbMysql.Main()
 }
