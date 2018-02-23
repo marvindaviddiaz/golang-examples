@@ -27,7 +27,8 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/xml"
 	//"github.com/marvindaviddiaz/golang-examples/csv"
 	//"github.com/marvindaviddiaz/golang-examples/dbMysql"
-	"github.com/marvindaviddiaz/golang-examples/dbMongo"
+	//"github.com/marvindaviddiaz/golang-examples/dbMongo"
+	"github.com/marvindaviddiaz/golang-examples/tcp"
 )
 func main()  {
 
@@ -62,5 +63,6 @@ func main()  {
 	//xml.Main()
 	//csv.Main()
 	//dbMysql.Main()
-	dbMongo.Main()
+	//dbMongo.Main()
+	//tcp.main() run with go with flags
 }
