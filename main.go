@@ -28,7 +28,8 @@ import (
 	//"github.com/marvindaviddiaz/golang-examples/csv"
 	//"github.com/marvindaviddiaz/golang-examples/dbMysql"
 	//"github.com/marvindaviddiaz/golang-examples/dbMongo"
-	"github.com/marvindaviddiaz/golang-examples/tcp"
+	//"github.com/marvindaviddiaz/golang-examples/tcp"
+	"github.com/marvindaviddiaz/golang-examples/protobuff"
 )
 func main()  {
 
@@ -65,4 +66,5 @@ func main()  {
 	//dbMysql.Main()
 	//dbMongo.Main()
 	//tcp.main() run with go with flags
+	protobuff.Main()
 }
