@@ -39,7 +39,6 @@ func runClient(address string) error {
 		fmt.Println("Writting", scanner.Text())
 		conn.Write(append(scanner.Bytes(), '\r'))
 
-		fmt.Println("What message would you like to send?")
 		buffer := make([]byte, 1024)
 		_, err := conn.Read(buffer)
 		if err != nil && err != io.EOF {
@@ -49,6 +48,7 @@ func runClient(address string) error {
 			return nil
 		}
 		fmt.Println(string(buffer))
+		fmt.Println("What message would you like to send?")
 	}
 
 	return scanner.Err()
